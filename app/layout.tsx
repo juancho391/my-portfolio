@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ClientMenuWrapper from "./components/clienWrapper";
+import { ContextProvider } from "@/context/Context";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Juan Esteban Dev",
-  description: "Portafolio de Juan Esteban, desarrollador de software full stack",
+  description:
+    "Portafolio de Juan Esteban, desarrollador de software full stack",
 };
 
 export default function RootLayout({
@@ -29,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black min-h-screen p-10 pt-24`}
       >
         <ClientMenuWrapper />
-        {children}
+        <ContextProvider>{children}</ContextProvider>
       </body>
     </html>
   );
