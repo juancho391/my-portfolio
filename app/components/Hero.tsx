@@ -3,7 +3,7 @@ import { TextGenerateEffect } from "@/app/components/ui/text-generate-effect";
 
 export function Hero() {
   return (
-    <div className="h-full w-full text-center sm:p-8">
+    <div className="h-full w-full text-center">
       <h1 className="sm:mb-7 font-extrabold inline-block ">
         <TextGenerateEffect
           words="Hola, soy"
