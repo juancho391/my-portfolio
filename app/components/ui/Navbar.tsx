@@ -18,13 +18,9 @@ export const NavLink = ({
   );
 };
 
-export const Menu = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const Menu = ({ children }: { children: React.ReactNode }) => {
   return (
-    <nav className="fixed mx-auto left-1/2 transform -translate-x-1/2 top-4 z-50 rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-8 px-8 py-4 w-85 sm:w-full  md:w-[40rem] lg:w-[50rem]">
+    <nav className="fixed mx-auto left-1/2 transform -translate-x-1/2 top-4 z-50 rounded-full border border-transparent bg-black  dark:border-white/[0.2] shadow-input flex justify-center space-x-8 px-8 py-4 w-85 sm:w-full  md:w-[40rem] lg:w-[50rem]">
       {children}
     </nav>
   );

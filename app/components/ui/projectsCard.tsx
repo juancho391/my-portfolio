@@ -13,7 +13,7 @@ export const ProjectCard = ({ project }: Props) => {
     router.push(`projects/${project.link}`);
   };
   return (
-    <div className=" border-l-4 border-white w-full h-full p-3 justify-self-center flex flex-col gap-3 rounded-lg bg-gray-900 hover:scale-105 transition-all duration-200">
+    <div className=" border-l-4 border-white w-full h-full p-3 justify-self-center flex flex-col gap-3 rounded-lg bg-blue- hover:scale-105 transition-all duration-200">
       <h1 className="font-extrabold text-xl">{project.title}</h1>
       <p className="text-lg ">{project.description}</p>
       <div className="flex gap-2 flex-wrap ">
