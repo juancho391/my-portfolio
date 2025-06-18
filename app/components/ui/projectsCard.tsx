@@ -27,7 +27,7 @@ export const ProjectCard = ({ project }: Props) => {
       </div>
       <button
         onClick={() => handlerClick(project.id)}
-        className="w-full p-2 border-1 border-white rounded-lg"
+        className="w-full p-2 border-1 border-white rounded-lg cursor-pointer"
       >
         Ver mas detalles
       </button>
