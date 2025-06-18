@@ -3,6 +3,12 @@ export type Tecnology = {
   name: string;
 };
 
+export type TechWithIcon = {
+  id: number;
+  name: string;
+  icon?: React.ReactNode;
+};
+
 export type Image = {
   id: number;
   src: string;
@@ -16,7 +22,4 @@ export type Project = {
   link: string;
   images: Image[];
   tecnologies: Tecnology[];
-  tecnologiesBack: Tecnology[];
-  tecnologiesFront: Tecnology[];
-  additionalTools: Tecnology[];
 };

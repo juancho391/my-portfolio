@@ -4,7 +4,6 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 import { FaRocket } from "react-icons/fa";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { IoCodeSlash } from "react-icons/io5";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 // Ícono SVG personalizado
 const ContactForm = () => {
@@ -29,9 +28,8 @@ const ContactForm = () => {
           className="border border-gray-500 rounded-md p-2"
         />
         <label htmlFor="">Mensaje</label>
-        <input
+        <textarea
           id="message"
-          type="text"
           placeholder="Hablemos de tu proyecto, objetivos y plazos"
           className="border border-gray-500 rounded-md p-2 h-40"
         />
@@ -64,7 +62,6 @@ const AceternityIcon = () => {
   );
 };
 
-// Ícono decorativo para las esquinas
 export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
@@ -81,7 +78,6 @@ export const Icon = ({ className, ...rest }: any) => {
   );
 };
 
-// Componente Card único y funcional
 const Card = ({
   title,
   text,
@@ -140,8 +136,8 @@ const Contact = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-3xl font-extrabold">Contacto</h1>
-      <div className="w-20 bg-white h-1 mt-4 mb-6 rounded-full "></div>
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto">
+      <div className="w-20 bg-white h-1 mt-4 rounded-full "></div>
+      <div className="py-15 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto">
         <Card
           title="Software a medida"
           icon={<FaRocket className="text-5xl" />}
