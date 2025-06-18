@@ -3,6 +3,34 @@
     "title": "Aplicacion de gestión de sorteos",
     "description": "Sistema para gestionar sorteos, incluye gestion de pagos, generacion de numeros aleatorios, envio de correos y un panel de administracion.",
     "descriptionDetail": "Este proyecto fue desarrollado para un cliente que necesitaba una aplicacion para gestionar sorteos, generar numeros aleatorios para cada comprador, gestionar la compra de las boletas y el envio de correos para que cada participante sepa que numeros le fueron asignados.",
+    "desafio": "El principal desafio fue la generacion de los numeros aleatorios y garantizar que no se le asignara el mismo numero a dos personas diferentes, para esto fue clave el diseño de la base de datos relacional y la implementacion de validaciones en el backend y el uso de python para trabajar con listas de hasta 9999 numeros que tenia cada sorteo.",
+    "link": "sorteos",
+    "images": [
+      {
+        "id": 1,
+        "src": "/images/sorteos/sorteosHome.png"
+      },
+      {
+        "id": 2,
+        "src": "/images/sorteos/sorteosCompra.png"
+      }
+    ],
+    "tecnologies": [
+      { "id": 5, "name": "Postgresql", "icon" : null },
+      { "id": 3, "name": "Docker" , "icon": null},
+      { "id": 2, "name": "Python", "icon" : null },
+      { "id": 4, "name": "FastApi", "icon" : null },
+      { "id": 1, "name": "NextJs", "icon" : null },
+      { "id": 6, "name": "Git" , "icon": null},
+      { "id": 7, "name": "Github", "icon": null },
+      { "id": 8, "name": "TailwindCss" , "icon": null}
+    ]
+  },
+{
+    "id": 2,
+    "title": "Aplicacion de gestión de sorteos",
+    "description": "Sistema para gestionar sorteos, incluye gestion de pagos, generacion de numeros aleatorios, envio de correos y un panel de administracion.",
+    "descriptionDetail": "Este proyecto fue desarrollado para un cliente que necesitaba una aplicacion para gestionar sorteos, generar numeros aleatorios para cada comprador, gestionar la compra de las boletas y el envio de correos para que cada participante sepa que numeros le fueron asignados.",
     "desafio": "El principal desafio fue la generacion de los numeros aleatorios y garantizar que no se le asignara el mismo numero a dos personas diferentes, para esto fue clave el diseño de la base de datos relacional y la implementacion de validaciones en el backend y el uso de python para trabajar con listas de hasta 9999 numeros que tenia cada sorte.",
     "link": "sorteos",
     "images": [
@@ -20,60 +48,12 @@
       { "id": 2, "name": "Postgresql" },
       { "id": 3, "name": "Python" },
       { "id": 4, "name": "FastApi" },
-      { "id": 5, "name": "Docker" }
-    ],
-    "tecnologiesFront":[
-      { "id": 1, "name": "NextJs framework para el frontend" },
-      { "id": 2, "name": "TailwindCss para estilos y diseño responsive" },
-      { "id": 3, "name": "Typescript para tipado" }
-    ],
-    "tecnologiesBack":[
-      { "id": 1, "name": "Python 13.2" },
-      { "id": 2, "name": "FastApi para comunicacion con el front" },
-      { "id": 3, "name": "Postgresql como base de datos relacional" }
-    ],
-    "additionalTools" : [
-      { "id": 1, "name": "Docker para despliegue" },
-      { "id": 2, "name": "Git para control de versiones" },
-      { "id": 3, "name": "Github como repositorio remoto" },
-      { "id": 4, "name": "Render para hosting"}
+      { "id": 5, "name": "Docker" },
+      { "id": 7, "name": "TailwindCss" },
+      { "id": 8, "name": "Typescript" },
+      { "id": 9, "name": "Python" },
+      { "id": 10, "name": "Git" },
+      { "id": 11, "name": "Github" }
     ]
-  },
-    {
-        "id": 2,
-        "title": "Aplicacion de gestion de sorteos - Admin",
-        "description": "Panel de administracion para gestionar los sorteos, los pagos y los participantes.",
-        "descriptionDetail": "Este proyecto es el panel de administracion del proyecto anterior, permite gestionar los sorteos, los pagos y los participantes.",
-        "desafio": "El principal desafio fue la implementacion de un sistema de autenticacion y autorizacion para que solo los administradores pudieran acceder al panel y gestionar los sorteos.",
-        "link": "alquileres",
-        "images": [
-        {
-            "id": 1,
-            "src": "/images/sorteos/sorteosAdmin.png"
-        }
-        ],
-        "tecnologies": [
-        { "id": 1, "name": "NextJs" },
-        { "id": 2, "name": "Postgresql" },
-        { "id": 3, "name": "Python" },
-        { "id": 4, "name": "FastApi" },
-        { "id": 5, "name": "Docker" }
-        ],
-        "tecnologiesFront":[
-          { "id": 1, "name": "NextJs framework para el frontend" },
-          { "id": 2, "name": "TailwindCss para estilos y diseño responsive" },
-          { "id": 3, "name": "Typescript para tipado" }
-        ],
-        "tecnologiesBack":[
-          { "id": 1, "name": "Python 13.2" },
-          { "id": 2, "name": "FastApi para comunicacion con el front" },
-          { "id": 3, "name": "Postgresql como base de datos relacional" }
-        ],
-        "additionalTools" : [
-          { "id": 1, "name": "Docker para despliegue" },
-          { "id": 2, "name": "Git para control de versiones" },
-          { "id": 3, "name": "Github como repositorio remoto" },
-          { "id": 4, "name": "Render para hosting"}
-        ]
-    }
+  }
 ]
