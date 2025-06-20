@@ -16,6 +16,8 @@ import {
   GitHubLogo,
   GitLogo,
   ReactLogo,
+  MongoDBLogo,
+  LinuxLogo,
 } from "./StackCard";
 
 type Props = {
@@ -37,6 +39,8 @@ const iconsList = [
   { id: 8, icon: <SiTailwindcss className="text-5xl text-[#38B2AC]" /> },
   { id: 9, icon: <DjangoIcon /> },
   { id: 10, icon: <ReactLogo /> },
+  { id: 11, icon: <MongoDBLogo /> },
+  { id: 12, icon: <LinuxLogo /> },
 ];
 
 const TechCards = ({ tecnologies }: PropsTechCard) => {
