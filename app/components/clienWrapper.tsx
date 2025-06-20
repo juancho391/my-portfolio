@@ -5,15 +5,15 @@ import { Menu, NavLink } from "@/app/components/ui/Navbar";
 const navItems = [
   {
     name: "Sobre mí",
-    link: "/",
+    link: "/#about",
   },
   {
     name: "Proyectos",
-    link: "/",
+    link: "/#projects",
   },
   {
     name: "Contacto",
-    link: "/",
+    link: "/#contact",
   },
 ];
 
@@ -21,7 +21,7 @@ export default function ClientMenuWrapper() {
   return (
     <Menu>
       {navItems.map((item) => (
-        <NavLink key={item.name} href={item.link}>
+        <NavLink key={item.name} href={`${item.link}`}>
           {item.name}
         </NavLink>
       ))}
