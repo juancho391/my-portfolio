@@ -13,6 +13,10 @@
       {
         "id": 2,
         "src": "/images/sorteos/sorteosCompra.png"
+      },
+      {
+        "id": 3,
+        "src": "/images/sorteos/sorteosAbout.png"
       }
     ],
     "tecnologies": [
@@ -28,6 +32,34 @@
   },
 {
     "id": 2,
+    "title": "Aplicacion de reservas de alojamiento",
+    "description": "Aplicacion para publicar alojamientos, buscar alojamientos y reservarlos.",
+    "descriptionDetail": "Este proyecto fue desarrollador para un proyecto academico, el objetivo era crear una aplicacion para aplicar conocmientos de bases de datos no relacionales en este caso se uso mongodb y se aplico sharding es decir fragmentacion y replicacion de la base de datos en distintos servidores para aplicar escalado horizontal y vertical de la base de datos.",
+    "desafio": "El principal desafio fue la gestion de la base de datos no relacional en diferentes maquinas, orquestar y configurar los 3 shards de la base de datos cada uno con 3 nodos para aplicar replicacion de la base de datos en distintos servidores.",
+    "link": "alquileres",
+    "images": [
+      {
+        "id": 1,
+        "src": "/images/sorteos/sorteosHome.png"
+      },
+      {
+        "id": 2,
+        "src": "/images/sorteos/sorteosCompra.png"
+      }
+    ],
+  "tecnologies": [
+      { "id": 5, "name": "Postgresql", "icon" : null },
+      { "id": 3, "name": "Docker" , "icon": null},
+      { "id": 11, "name": "MongoDB", "icon": null },
+      { "id": 2, "name": "Python", "icon" : null },
+      { "id": 4, "name": "FastApi", "icon" : null },
+      { "id": 1, "name": "NextJs", "icon" : null },
+      { "id": 6, "name": "Git" , "icon": null},
+      { "id": 8, "name": "TailwindCss" , "icon": null}
+    ]
+  },
+{
+    "id":3,
     "title": "Aplicacion de gestión de sorteos",
     "description": "Sistema para gestionar sorteos, incluye gestion de pagos, generacion de numeros aleatorios, envio de correos y un panel de administracion.",
     "descriptionDetail": "Este proyecto fue desarrollado para un cliente que necesitaba una aplicacion para gestionar sorteos, generar numeros aleatorios para cada comprador, gestionar la compra de las boletas y el envio de correos para que cada participante sepa que numeros le fueron asignados.",
@@ -43,17 +75,15 @@
         "src": "/images/sorteos/sorteosCompra.png"
       }
     ],
-    "tecnologies": [
-      { "id": 1, "name": "NextJs" },
-      { "id": 2, "name": "Postgresql" },
-      { "id": 3, "name": "Python" },
-      { "id": 4, "name": "FastApi" },
-      { "id": 5, "name": "Docker" },
-      { "id": 7, "name": "TailwindCss" },
-      { "id": 8, "name": "Typescript" },
-      { "id": 9, "name": "Python" },
-      { "id": 10, "name": "Git" },
-      { "id": 11, "name": "Github" }
+  "tecnologies": [
+      { "id": 5, "name": "Postgresql", "icon" : null },
+      { "id": 3, "name": "Docker" , "icon": null},
+      { "id": 2, "name": "Python", "icon" : null },
+      { "id": 4, "name": "FastApi", "icon" : null },
+      { "id": 1, "name": "NextJs", "icon" : null },
+      { "id": 6, "name": "Git" , "icon": null},
+      { "id": 7, "name": "Github", "icon": null },
+      { "id": 8, "name": "TailwindCss" , "icon": null}
     ]
   }
 ]

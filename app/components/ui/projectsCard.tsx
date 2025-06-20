@@ -9,7 +9,6 @@ type Props = {
 export const ProjectCard = ({ project }: Props) => {
   const router = useRouter();
   const handlerClick = (projectId: number) => {
-    console.log(`Proyecto ${projectId} clickeado`);
     router.push(`projects/${project.link}`);
   };
   return (

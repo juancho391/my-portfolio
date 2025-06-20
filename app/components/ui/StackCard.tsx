@@ -43,7 +43,7 @@ const Skeleton = ({ technologies }: { technologies: TechWithIcon[] }) => {
     <div className="p-8 h-full relative flex flex-wrap items-center justify-center">
       <div className="flex flex-col sm:flex-row h-full  justify-center items-center gap-2 grow-1">
         {technologies.map((tech, index) => (
-          <Container>{tech.icon}</Container>
+          <Container key={tech.id}>{tech.icon}</Container>
         ))}
       </div>
 
