@@ -134,7 +134,10 @@ const Card = ({
 // Componente principal Contact
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div
+      id="contact"
+      className="scroll-mt-25 flex flex-col justify-center items-center"
+    >
       <h1 className="text-3xl font-extrabold">Contacto</h1>
       <div className="w-20 bg-white h-1 mt-4 rounded-full "></div>
       <div className="py-15 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto">
